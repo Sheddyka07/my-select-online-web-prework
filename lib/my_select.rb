@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nums = [1, 2, 3, 4, 5] 
 
 def my_select(collection) 
@@ -34,3 +35,15 @@ def my_select(array)
   select 
 end 
 
+=======
+def my_select(collection)
+  i = []
+  
+  i = 0 
+  while i < collection.length
+    yield(collection[i])
+    i = i + 1 
+  end 
+  collection
+end
+>>>>>>> 690068bc9795c5ccb891c013be38ad34649cf88d
